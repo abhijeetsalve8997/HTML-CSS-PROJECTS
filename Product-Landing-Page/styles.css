@@ -1,0 +1,12 @@
+#header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+}
